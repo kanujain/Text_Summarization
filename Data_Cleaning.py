@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[4]:
 
 
 import Data_Scrapped
 import re
 
+#Cleaning the unwanted informations
 def data_Cleaning():
     all_Para_Content = Data_Scrapped.data_scrapping()
     #Deleating [12][332] etc from paragraphs
@@ -15,8 +15,6 @@ def data_Cleaning():
     all_Para_Content_clean  = re.sub(r'\s+', ' ', all_Para_Content_clean)
     return all_Para_Content
 
-
-# In[5]:
 
 
 
