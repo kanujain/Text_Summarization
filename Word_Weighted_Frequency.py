@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 import Word_Frequency
 
 def calc_weighted_freq():
@@ -14,7 +11,6 @@ def calc_weighted_freq():
     return word_frequencies
 
 
-# In[ ]:
 
 
 
