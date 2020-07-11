@@ -1,8 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[4]:
-
+#Tokenisation of Sentences
 
 import nltk
 import Data_Cleaning
@@ -12,8 +11,6 @@ def sentence_tokenization():
     sentence_tokens = nltk.sent_tokenize(all_Para_Content_clean)
     return sentence_tokens
 
-
-# In[ ]:
 
 
 
