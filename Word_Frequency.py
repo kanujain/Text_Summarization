@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
 
 import StopWord
+import Word_Tokenization
 
 def calc_freq_word():
     stopwords = StopWord.stop_word()
+    word_tokens = Word_Tokenization.word_tokenization()
     word_frequencies = {}
     for word in word_tokens:
         if word not in stopwords:
@@ -15,4 +15,5 @@ def calc_freq_word():
                 word_frequencies[word] = 1
             else:
                 word_frequencies[word] += 1
+                
     return word_frequencies
