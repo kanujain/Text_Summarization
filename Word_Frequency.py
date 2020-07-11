@@ -15,4 +15,4 @@ def calc_freq_word():
                 word_frequencies[word] = 1
             else:
                 word_frequencies[word] += 1
-
+    return word_frequencies
